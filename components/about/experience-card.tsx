@@ -9,7 +9,7 @@ interface ExperienceCardProps {
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
-    <Card className="w-[350px]">
+    <Card className="w-[250px] md:w-[350px]">
       <CardHeader>
         <CardTitle>{experience.company}</CardTitle>
         <CardDescription>{experience.mainDuration}</CardDescription>
