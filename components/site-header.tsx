@@ -5,12 +5,14 @@ import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import MainNav from "@/components/main-nav";
 import ThemeToggle from "@/components/theme-toggle";
+import MobileNav from "./mobile-nav";
 
 export function SiteHeader() {
   return (
     <header className="bg-background sticky top-0 z-40 w-full border-b dark:border-gray-800 dark:shadow-black shadow-slate-300 dark:bg-opacity-50 bg-background/10 backdrop-blur-md">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} />
+        <MobileNav items={siteConfig.mainNav} divClasses="flex-col items-center" linkClasses="text-xl" />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-1">
             <Link href={siteConfig.links.linkedIn} target="_blank" rel="noreferrer">
