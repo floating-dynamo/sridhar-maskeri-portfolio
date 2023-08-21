@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Download, Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,10 +23,12 @@ export default function Home() {
           <Download className="w-5" />
           <p>Download CV</p>
         </Button>
-        <Button variant="secondary" className="flex items-center gap-2">
-          <Mail className="w-5" />
-          <p>Contact Me</p>
-        </Button>
+        <Link href={"mailto:shridharmaskeri@gmail.com"}>
+          <Button variant="secondary" className="flex items-center gap-2">
+            <Mail className="w-5" />
+            <p>Contact Me</p>
+          </Button>
+        </Link>
       </div>
     </section>
   );
