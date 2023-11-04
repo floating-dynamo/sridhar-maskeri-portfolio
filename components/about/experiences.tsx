@@ -1,20 +1,6 @@
 import React from "react";
 import ExperienceCard from "./experience-card";
-import { Experience } from "@/types/experience";
-
-const EXPERIENCES: Experience[] = [
-  {
-    company: "Persistent Systems",
-    mainDuration: "04 Aug 2022 - Present",
-    content: [
-      {
-        title: "Software Engineer",
-        duration: "04 Aug 2022 - Present",
-        body: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias architecto est ex impedit voluptates autem nisi ut reprehenderit fugiat doloribus.",
-      },
-    ],
-  },
-];
+import { EXPERIENCES } from "../metadata/experiences";
 
 const Experiences = () => {
   return (

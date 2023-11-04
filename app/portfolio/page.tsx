@@ -1,4 +1,5 @@
-import ProjectTab, { PROJECT_CATEGORIES } from "@/components/portfolio/project-tab";
+import { PROJECT_CATEGORIES } from "@/components/metadata/projects";
+import ProjectTab from "@/components/portfolio/project-tab";
 import { TabsContent } from "@/components/ui/tabs";
 import React from "react";
 

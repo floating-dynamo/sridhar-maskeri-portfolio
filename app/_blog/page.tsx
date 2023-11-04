@@ -7,9 +7,8 @@ import Image from "next/image";
 
 const Blog = () => {
   return (
-    <div className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+    <div className="grid items-center gap-6">
       <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">My Blogs</h1>
-      <p>🏗️ Under construction...</p>
       <div className="flex gap-5 flex-wrap">
       <Alert className="flex items-start gap-2">
           <Image src={hashnodeLogo} alt="medium" width={20} height={20} />

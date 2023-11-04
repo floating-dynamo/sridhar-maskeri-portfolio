@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import { StaticImageData } from 'next/image';
 
 interface ExperienceContent {
   title: string;
@@ -11,4 +11,5 @@ export interface Experience {
   mainDuration: string;
   content: ExperienceContent[];
   icon?: StaticImageData;
+  skills: string[];
 }

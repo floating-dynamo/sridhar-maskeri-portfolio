@@ -17,9 +17,9 @@ export const siteConfig = {
       href: "/portfolio",
     },
     {
-      title: "Blog",
-      href: "/blog",
-    },
+      title: "Resources",
+      href: "/resources"
+    }
   ],
   links: {
     twitter: "https://twitter.com/sridharmaskeri",
