@@ -33,7 +33,7 @@ const MobileNav = ({ items, divClasses, linkClasses }: MobileNavProps) => {
           <DrawerTitle>Sridhar Maskeri</DrawerTitle>
           <DrawerDescription>SWE | Web Developer | Graphic Designer</DrawerDescription>
         </DrawerHeader>
-        <div className='flex gap-4 py-4 flex-col h-2/3 mt-10'>
+        <div className='flex py-4 flex-col mt-10 mb-14'>
           <NavbarItems items={items} divClasses={divClasses} linkClasses={linkClasses} />
         </div>
       </DrawerContent>
