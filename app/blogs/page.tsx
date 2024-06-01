@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Blog = () => {
   return (
-    <div className="grid items-center gap-6">
+    <div className='container grid items-center gap-6 pb-8 pt-6 md:py-10'>
       <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">My Blogs</h1>
       <div className="flex gap-5 flex-wrap">
       <Alert className="flex items-start gap-2">

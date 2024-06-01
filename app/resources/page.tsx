@@ -3,7 +3,7 @@ import { resourceMetaData } from '@/components/metadata/resources';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import Resource from '@/components/resources/resource';
 import React from 'react';
-import Blog from '../_blog/page';
+import Blog from '../blogs/page';
 
 const Resources = () => {
   return (

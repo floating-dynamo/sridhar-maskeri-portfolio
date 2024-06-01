@@ -6,9 +6,12 @@ export const EXPERIENCES: Experience[] = [
     mainDuration: '04 Aug 2022 - Present',
     content: [
       {
+        title: 'Senior Software Engineer',
+        duration: 'April 2024 - Present',
+      },
+      {
         title: 'Software Engineer',
-        duration: '04 Aug 2022 - Present',
-        body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias architecto est ex impedit voluptates autem nisi ut reprehenderit fugiat doloribus.',
+        duration: 'Aug 2022 - April 2024',
       },
     ],
     skills: ['JavaScript', 'TypeScript', 'AWS', 'AWS CDK', 'Node Js', 'React'],
