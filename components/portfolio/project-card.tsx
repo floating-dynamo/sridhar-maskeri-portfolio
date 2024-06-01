@@ -18,7 +18,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, desc, githubLink, img, liveLink, skills }: ProjectCardProps) => {
   return (
-    <div className='flex flex-col items-start w-1/4 border-2 dark:border-0 dark:shadow-sm dark:shadow-slate-600 rounded-md relative h-fit'>
+    <div className='flex flex-col items-start w-1/4 border-2 dark:border-0 dark:shadow-sm dark:shadow-slate-600 rounded-md relative min-h-96'>
       {img ? (
         <Image
           src={img}
@@ -36,9 +36,9 @@ const ProjectCard = ({ title, desc, githubLink, img, liveLink, skills }: Project
           className='w-full h-44 object-cover object-center rounded-t-md'
         />
       )}
-      <div className='px-2 py-4 w-full'>
+      <div className='p-4 w-full flex flex-col h-full justify-evenly'>
         <h1 className='font-bold text-xl'>{title}</h1>
-        {desc && <p className='text-gray-600 text-sm mt-1'>{desc}</p>}
+        {desc && <p className='text-gray-600 text-sm mt-1 dark:text-slate-400'>{desc}</p>}
         <div className='mt-8'>
           <div className='flex items-center gap-2 flex-wrap'>
             {skills?.map((skill) => (

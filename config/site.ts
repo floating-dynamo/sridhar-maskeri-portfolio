@@ -1,6 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 import SpendWise from '@/public/images/portfolio/SpendWise.png';
 import VoterQ from '@/public/images/portfolio/voterQ.png';
+import DrinkIt from '@/public/images/portfolio/drinkIt.png';
+import MusicPlayer from '@/public/images/portfolio/musicPlayer.png';
 
 export const siteConfig = {
   name: 'Sridhar Maskeri',
@@ -52,6 +54,22 @@ export const siteConfig = {
         desc: 'This is backend REST API application built for managing tasks',
         githubLink: 'https://github.com/floating-dynamo/task-manager-rest-api',
         skills: ['Node Js', 'Express', 'Mongoose', 'MongoDB', 'JavaScript'],
+      },
+      {
+        title: 'Drink It',
+        desc: 'This is ecommerce application',
+        img: DrinkIt,
+        githubLink: 'https://github.com/floating-dynamo/drink-it',
+        liveLink: 'https://floating-dynamo.github.io/drink-it/',
+        skills: ['React', 'JavaScript'],
+      },
+      {
+        title: 'Music Player',
+        desc: 'This is a Modern Music Player built using HTML, CSS & Vanilla JavaScript',
+        img: MusicPlayer,
+        githubLink: 'https://github.com/floating-dynamo/Music-Player',
+        liveLink: 'https://floating-dynamo.github.io/Music-Player/',
+        skills: ['HTML', 'CSS', 'JavaScript'],
       },
     ],
   },

@@ -37,7 +37,7 @@ export const NavbarItems = ({ items, divClasses, linkClasses }: MainNavProps) =>
                 key={index}
                 href={item.href}
                 className={cn(
-                  "flex items-center text-sm font-medium text-muted-foreground",
+                  "flex items-center text-sm font-medium text-gray-600 dark:text-slate-400",
                   item.disabled && "cursor-not-allowed opacity-80",
                   linkClasses
                 )}
@@ -50,7 +50,7 @@ export const NavbarItems = ({ items, divClasses, linkClasses }: MainNavProps) =>
               key={index}
               href={item.href}
               className={cn(
-                "flex items-center text-sm font-medium text-muted-foreground",
+                "flex items-center text-sm font-medium text-gray-600 dark:text-slate-400",
                 item.disabled && "cursor-not-allowed opacity-80",
                 linkClasses
               )}

@@ -12,7 +12,7 @@ export default function Home() {
           Hi There 👋
           <br className='hidden sm:inline' />I am a passionate web developer from India.
         </h1>
-        <p className='max-w-[700px] text-lg text-muted-foreground'>
+        <p className='max-w-[700px] text-lg text-gray-600 dark:text-slate-400'>
           I have a strong work ethic and am always eager to learn and grow in my field.
           <br />I am also a technical blogger, sharing insights on web development and more. I would love to connect
           with you! 😉
