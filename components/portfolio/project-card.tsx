@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import React from 'react';
 import { Globe } from 'lucide-react';
 import Link from 'next/link';
@@ -10,7 +10,7 @@ import { Badge } from '../ui/badge';
 interface ProjectCardProps {
   githubLink?: string;
   liveLink?: string;
-  img?: string;
+  img?: string | StaticImageData;
   title: string;
   desc?: string;
   skills?: string[];
